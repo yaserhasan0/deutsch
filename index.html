@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>German Bakery Phrases</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Cairo', 'Nunito', 'sans-serif'],
+          },
+          colors: {
+            bakery: {
+              light: '#FFF7ED', // Light cream
+              DEFAULT: '#FFDAB9', // Peach puff
+              medium: '#F5A623', // Orange/Brown for accents
+              dark: '#7B3F00',   // Dark brown for text/stronger accents
+              green: '#28A745', // Success green
+              red: '#DC3545',   // Error red
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-B6LTNpwi.js"></script>
+</head>
+<body class="bg-bakery-light font-sans">
+  <div id="root"></div>
+</body>
+</html>
